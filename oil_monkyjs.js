@@ -53,7 +53,7 @@
         console.log(kw.value)
         return new Promise((resolve, reject) => {
             GM_xmlhttpRequest({
-                "url": " 接口地址 ",
+                "url": " http://flask.web-framework-16uy.1681776012972679.cn-shenzhen.fc.devsapp.net ",
                 "data": JSON.stringify({
                     "prompt": kw.value,
                 }),
